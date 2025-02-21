@@ -1,0 +1,116 @@
+﻿<header class="header">
+    <div class="header-container">
+        <!-- Логотип -->
+        <div class="logo">
+            <img src="images/logo.svg" alt="Логотип" />
+        </div>
+
+        <!-- Меню навигации -->
+        <nav class="nav-menu">
+            <a href="/">О НАС</a>
+            <a href="/parts">ЗАПЧАСТИ</a>
+            <a href="/autodisassembly">АВТОРАЗБОР</a>
+            <a href="/transportation">ГРУЗОПЕРЕВОЗКИ</a>
+            <a href="/contacts">КОНТАКТЫ</a>
+        </nav>
+
+        <!-- Контакты (телефон и время работы) -->
+        <div class="contacts">
+            <img src="icons/phone.svg" alt="Телефон" />
+            <div class="contact-info">
+                <a href="tel:+79999999999">+7 (999) 999-99-99</a>
+                <span>с 10:00 до 22:00 (пн-вс)</span>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- CSS стили -->
+<style>
+    /* Обнуление отступов и границ для всех элементов */
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Хедер (шапка) - растягивается на всю ширину */
+    .header {
+        width: 100%; /* Занимает всю ширину экрана */
+        height: 120px;
+        background: rgba(0, 0, 0, 0.7);
+        ; /* Тёмный фон */
+        color: white; /* Белый текст */
+        padding: 15px 0; /* Отступы сверху и снизу */
+
+    }
+
+    /* Контейнер - ограничивает ширину и выравнивает элементы */
+    .header-container {
+        max-width: 1500px; /* Максимальная ширина */
+        margin: 0 auto; /* Центрирование */
+        display: flex; /* Размещаем элементы в строку */
+        justify-content: space-between; /* Равномерное распределение */
+        align-items: center; /* Выравнивание по центру */
+        padding: 0 0px; /* Отступы слева и справа */
+    }
+
+    /* Логотип */
+    .logo img {
+        height: 80px; /* Размер логотипа */
+        align-items: center;
+    }
+
+    /* Меню навигации */
+    .nav-menu {
+        display: flex; /* Размещаем ссылки в строку */
+        gap: 20px; /* Отступы между пунктами */
+        font-family: Comfortaa;
+    }
+
+        /* Ссылки в меню */
+        .nav-menu a {
+            color: #EAEAEA; /* Белый цвет текста */
+            text-decoration: none; /* Убираем подчёркивание */
+            font-weight: bold; /* Делаем текст жирным */
+            transition: 0.3s; /* Плавный эффект при наведении */
+        }
+
+            /* Эффект при наведении на ссылки */
+            .nav-menu a:hover {
+                color: white; /* Меняем цвет на жёлтый */
+            }
+
+    /* Блок контактов */
+    .contacts {
+        display: flex; /* Размещаем элементы в строку */
+        align-items: center; /* Выравниваем по центру */
+        gap: 10px; /* Отступ между иконкой и текстом */
+    }
+
+        /* Иконка телефона */
+        .contacts img {
+            width: 29px; /* Размер иконки */
+            height: 27px;
+        }
+
+    /* Контейнер для номера телефона и времени работы */
+    .contact-info {
+        display: flex; /* Включаем флекс-контейнер */
+        flex-direction: column; /* Размещаем элементы в столбик */
+    }
+
+        /* Номер телефона */
+        .contact-info a {
+            font-size: 20px;
+            color: white; /* Белый текст */
+            font-weight: bold; /* Жирный шрифт */
+            text-decoration: none; /* Без подчёркивания */
+        }
+
+        /* Время работы */
+        .contact-info span {
+            font-size: 16px; /* Уменьшаем размер шрифта */
+            opacity: 0.8; /* Немного затемняем */
+        }
+</style>
