@@ -33,3 +33,4 @@ D:\repos\WebApp\WebApp\obj\Debug\net8.0\staticwebassets\msbuild.WebApp.Microsoft
 D:\repos\WebApp\WebApp\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 D:\repos\WebApp\WebApp\obj\Debug\net8.0\scopedcss\Components\Shared\Footer.razor.rz.scp.css
 D:\repos\WebApp\WebApp\obj\Debug\net8.0\scopedcss\Components\Home\HeroSection.razor.rz.scp.css
+D:\repos\WebApp\WebApp\obj\Debug\net8.0\WebApp.sourcelink.json

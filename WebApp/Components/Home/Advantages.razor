@@ -1,5 +1,112 @@
-﻿<h3>Advantages</h3>
+﻿<div class="advantages">
+    <h2>Почему именно мы?</h2>
+    <div class="advantages-container">
+        <div class="advantage">
+            <img src="images/sec.png" alt="Скорость">
+            <h3>Скорость</h3>
+            <p>Быстрая доставка и подборка запчастей</p>
+        </div>
+        <div class="advantage">
+            <img src="images/team.png?v=2" alt="Ответственная команда">
+            <h3>Ответственная команда</h3>
+            <p>Наши сотрудники всегда рады вам подсказать в вашей ситуации</p>
+        </div>
+        <div class="advantage">
+            <img src="images/low-cost.png?v=2" alt="Низкая стоимость">
+            <h3>Низкая стоимость</h3>
+            <p>Стоимость на доставку и цены ниже чем у конкурентов</p>
+        </div>
+        <div class="advantage">
+            <img src="images/adaptation.png?v=3" alt="Адаптация под вас">
+            <h3>Адаптация под вас</h3>
+            <p>Нам хватит немного времени, чтобы понять что вы хотите</p>
+        </div>
+        <div class="advantage">
+            <img src="images/support.png?v=2" alt="Доработка и поддержка">
+            <h3>Доработка и поддержка</h3>
+            <p>Всегда рады вернуться к вам и что-то поправить, если вас не устраивает</p>
+        </div>
+        <div class="advantage">
+            <img src="images/reliability.png?v=3" alt="Надежность">
+            <h3>Надежность</h3>
+            <p>С нами безопасно, ведь у нас работают лучшие специалисты</p>
+        </div>
+    </div>
+</div>
 
-@code {
+<style>
+    .advantages {
+        text-align: center;
+        padding: 50px 20px;
+    }
 
-}
+        .advantages h2 {
+            font-size: 32px;
+            font-weight: bold;
+            position: relative;
+            margin-bottom: 60px;
+        }
+
+            .advantages h2::after {
+                content: "";
+                display: block;
+                width: 295px;
+                height: 3px;
+                background: red;
+                margin: 10px auto 0;
+
+            }
+
+    .advantages-container {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 100px;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+
+    .advantage {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        min-height: 250px;
+    }
+
+        .advantage img {
+            height: 150px; 
+            width: auto; 
+            object-fit: contain;
+            margin-bottom: 25px;
+        }
+
+        .advantage h3 {
+            font-size: 26px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .advantage p {
+            font-size: 18px;
+            color: #666;
+        }
+
+    media (max-width: 768px) {
+        .advantages-container
+
+    {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    }
+
+    media (max-width: 480px) {
+        .advantages-container
+
+    {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    }
+</style>

@@ -7,28 +7,32 @@
             <a href="#" class="hero-btn">ЗАКАЗАТЬ ЗВОНОК</a>
         </div>
         <div class="hero-image">
-            <img src="images/truck.png" alt="Грузовик">
+            <img src="images/truck.png?v=2" alt="Грузовик">
         </div>
     </div>
 </div>
 
 <style>
     .hero {
-        position: relative;
-        background: white;
-        padding: 0 0;
+        display: flex;
+        justify-content: center; /* Центрируем содержимое */
+        align-items: center;
+        text-align: left; /* Выравниваем текст слева */
+        background-color: white;
     }
 
     .hero-container {
-        max-width: auto;
-        margin: 0 0px;
+        max-width: 1600px;
+        width: 100%;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-between; /* Раздвигаем текст и изображение */
         align-items: center;
+        gap: 50px; /* Промежуток между текстом и картинкой */
+        padding: 0 50px; /* Отступы слева и справа */
     }
 
     .hero-text {
-        width: auto;
+        max-width: 600px; /* Ограничение ширины текста */
     }
 
         .hero-text h1 {
@@ -38,30 +42,35 @@
         }
 
         .hero-text p {
-            font-size: 24px;
+            font-size: 20px;
             margin-bottom: 20px;
         }
+
+    .hero-buttons {
+        display: flex;
+        gap: 20px;
+    }
 
     .hero-btn {
         display: inline-block;
         background: red;
         color: white;
-        padding: 15px 20px;
+        padding: 15px 25px;
         text-decoration: none;
         font-weight: bold;
-        border-radius: 5px;
+        border-radius: 30px;
     }
 
+        .hero-btn.black {
+            background: black;
+        }
+
     .hero-image {
-        width: auto;
-        text-align: right;
+        max-width: 1600px; /* Размер изображения */
     }
 
         .hero-image img {
-            width: auto;
-            max-width: 1003px;
-
+            width: 130%;
+            height: auto
         }
-
-
 </style>

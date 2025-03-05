@@ -1,5 +1,144 @@
-﻿<h3>PartsCategories</h3>
+﻿<div class="parts-categories">
+    <h2>Детали в наличии и под заказ</h2>
+    <div class="parts-categories-grid">
+        <a href="/двигатели" class="category-link">
+            <img src="images/plates/engine.png" alt="Двигатели и детали (ДВС)">
+            <span>Двигатели и детали (ДВС)</span>
+        </a>
+        <a href="/кабины" class="category-link">
+            <img src="images/plates/cabin.png" alt="Кабины и детали кабин">
+            <span>Кабины и детали кабин</span>
+        </a>
+        <a href="/кпп" class="category-link">
+            <img src="images/plates/gearbox.png" alt="КПП и детали КПП">
+            <span>КПП и детали КПП</span>
+        </a>
+        <a href="/редукторы" class="category-link">
+            <img src="images/plates/reducer.png?v=2" alt="Редукторы">
+            <span>Редукторы</span>
+        </a>
+        <a href="/выхлопная-система" class="category-link">
+            <img src="images/plates/exhaust.png" alt="Выхлопная система">
+            <span>Выхлопная система</span>
+        </a>
+        <a href="/оптика" class="category-link">
+            <img src="images/plates/optics.png" alt="Оптика">
+            <span>Оптика</span>
+        </a>
+        <a href="/кузовные-детали" class="category-link">
+            <img src="images/plates/body.png" alt="Кузовные детали">
+            <span>Кузовные детали</span>
+        </a>
+        <a href="/пневматика" class="category-link">
+            <img src="images/plates/pneumatics.png" alt="Пневматика">
+            <span>Пневматика</span>
+        </a>
+        <a href="/подвеска" class="category-link">
+            <img src="images/plates/suspension.png?v=2" alt="Подвеска">
+            <span>Подвеска</span>
+        </a>
+        <a href="/рулевое-управление" class="category-link">
+            <img src="images/plates/steering.png" alt="Рулевое управление">
+            <span>Рулевое управление</span>
+        </a>
+        <a href="/кондиционирование" class="category-link">
+            <img src="images/plates/ac.png" alt="Кондиционирование и отопление">
+            <span>Кондиционирование и отопление</span>
+        </a>
+        <a href="/охлаждение" class="category-link">
+            <img src="images/plates/cooling.png" alt="Система охлаждения">
+            <span>Система охлаждения</span>
+        </a>
+        <a href="/топливное-оборудование" class="category-link">
+            <img src="images/plates/fuel.png" alt="Топливное оборудование">
+            <span>Топливное оборудование</span>
+        </a>
+        <a href="/тормозная-система" class="category-link">
+            <img src="images/plates/brakes.png" alt="Тормозная система">
+            <span>Тормозная система</span>
+        </a>
+        <a href="/трансмиссия" class="category-link">
+            <img src="images/plates/transmission.png" alt="Трансмиссия">
+            <span>Трансмиссия</span>
+        </a>
+        <a href="/электрика" class="category-link">
+            <img src="images/plates/electrics.png" alt="Электрика">
+            <span>Электрика</span>
+        </a>
+    </div>
+</div>
 
-@code {
+<style>
+    .parts-categories {
+        text-align: center;
+        padding: 50px 20px;
+    }
 
-}
+        .parts-categories h2 {
+            font-size: 32px;
+            font-weight: bold;
+            position: relative;
+            margin-bottom: 30px;
+        }
+
+            .parts-categories h2::after {
+                content: "";
+                display: block;
+                width: 440px;
+                height: 3px;
+                background: red;
+                margin: 10px auto 0;
+            }
+
+    .parts-categories-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 15px;
+        padding: 20px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .category-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        text-decoration: none;
+        color: #333;
+        background-color: #E1E1E1;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        height: 180px;
+        justify-content: space-between;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+        .category-link:hover {
+            transform: scale(1.05); 
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+        }
+
+        .category-link img {
+            max-width: 100%;
+            max-height: 120px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .category-link:hover img {
+            transform: scale(1.1); 
+        }
+
+        .category-link span {
+            font-size: 14px;
+            font-weight: bold;
+            margin-top: 10px;
+            transition: color 0.3s ease;
+        }
+
+        .category-link:hover span {
+            color: black;
+        }
+</style>

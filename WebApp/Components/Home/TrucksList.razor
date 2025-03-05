@@ -1,5 +1,330 @@
-﻿<h3>TrucksList</h3>
+﻿., [05.03.2025 6:47]
+@page "/trucklist"
+
+@using WebApp.Components
+
+<div class="truck-categories">
+    <!-- Заголовок с поиском и фильтром (вверху, как на изображении) -->
+    <div class="truck-header flex justify-between items-center mb-6">
+        <h2 class="text-2xl font-bold text-gray-800">Автомобили в разборе</h2>
+
+        <div class="flex items-center space-x-4">
+            <!-- Поисковая строка -->
+            <div class="truck-search relative">
+                <input type="text"
+                       placeholder="Поиск запчастей..."
+                       class="truck-search-input border border-gray-300 rounded-full p-2 pl-10 w-64 focus:outline-none focus:ring-2 focus:ring-red-500"
+                       @oninput="OnSearchInput" />
+                <span class="truck-search-icon absolute left-3 top-2 text-gray-400">🔍</span>
+            </div>
+
+            <!-- Фильтр -->
+            <div class="truck-filter relative">
+                <button class="truck-button-red px-4 py-2 rounded-full hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500"
+                        @onclick="ToggleFilterDropdown">
+                    Фильтр
+                </button>
+                <div class="@(ShowFilterDropdown ? "truck-filter-dropdown absolute right-0 mt-2 w-48 bg-white border border-gray-300 rounded-lg shadow-lg" : "hidden")">
+                    <label class="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                        <input type="checkbox" class="mr-2" /> По марке
+                    </label>
+                    <label class="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                        <input type="checkbox" class="mr-2" /> По году
+                    </label>
+                    <label class="block px-4 py-2 hover:bg-gray-100 cursor-pointer">
+                        <input type="checkbox" class="mr-2" /> По состоянию
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Сетка списка грузовиков -->
+    <div class="truck-categories-grid">
+        @if (Trucks != null && Trucks.Any())
+        {
+            @foreach (var truck in Trucks)
+            {
+                <div class="truck-link" @onclick="() => ToggleTruckDetails(truck.Id)">
+                    <img src="https://via.placeholder.com/200x150" alt="Грузовик" class="rounded-md" />
+                    <span class="truck-title">@truck.Name</span>
+                    <p class="truck-text-gray">Регион: @truck.Region</p>
+                    <p class="truck-text-gray">Телефон: @truck.Phone</p>
+                    <button class="truck-button-red">
+                        @if (ExpandedTrucks.Contains(truck.Id))
+                        {
+                            <span>Скрыть</span>
+                        }
+                        else
+                        {
+                            <span>Подробнее</span>
+                        }
+                    </button>
+                    
+
+                    <!-- Раскрывающаяся часть с дополнительной информацией -->
+                    @if (ExpandedTrucks.Contains(truck.Id))
+                    {
+                        <div class="truck-details mt-4 p-4 bg-gray-100 rounded-lg shadow-md">
+                            <p><strong>Описание:</strong> Этот грузовик в отличном состоянии, готов к разбору на запчасти. Идеален для восстановления или ремонта.</p>
+                            <img src="https://via.placeholder.com/300x200" alt="Дополнительное изображение грузовика" class="mt-2 rounded-md" />
+                            <p><strong>Год выпуска:</strong> 2018</p>
+                            <p><strong>Состояние:</strong> Хорошее</p>
+                        </div>
+                    }
+                </div>
+            }
+        }
+        else
+        {
+            <p>Нет доступных грузовиков.</p>
+        }
+    </div>
+    <!-- Кнопка "Посмотреть ещё" -->
+    <div class="text-center mt-6">
+        <button class="truck-button-red px-6 py-2 rounded-full hover:bg-red-600 focus:outline-none focus:ring-2 focus:ring-red-500"
+                @onclick="LoadMore">
+            Посмотреть ещё
+        </button>
+    </div>
+</div>
+
+<style>
+    .truck-categories {
+        text-align: center;
+        padding: 20px;
+        background-color: #f5f5f5;
+        min-height: 100vh;
+    }
+
+    .truck-header {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+
+    .truck-categories h2 {
+        font-size: 24px;
+        font-weight: bold;
+        position: relative;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+        .truck-categories h2::after {
+            content: "";
+            display: block;
+            width: 200px;
+            height: 3px;
+            background: #ef4444;
+            margin: 10px auto 0;
+        }
+
+    .truck-categories-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        padding: 20px;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .truck-link {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #fff;
+        border-radius: 8px;
+        padding: 10px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border: 1px solid #e0e0e0;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        cursor: pointer;
+        height: auto;
+        position: relative;
+    }
+
+        .truck-link:hover {
+            transform: scale(1.02);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        .truck-link img {
+            max-width: 100%;
+            max-height: 150px;
+            object-fit: contain;
+            border-radius: 4px;
+            transition: transform 0.3s ease;
+        }
+
+        .truck-link:hover img {
+            transform: scale(1.05);
+        }
+
+    .truck-title {
+        font-size: 16px;
+        font-weight: bold;
+        margin-top: 10px;
+        color: #333;
+        transition: color 0.3s ease;
+    }
+
+    .truck-link:hover .truck-title {
+        color: #000;
+    }
+
+    .truck-text-gray {
+        font-size: 14px;
+        margin: 5px 0;
+        color: #666;
+    }
+
+    .truck-button-red {
+        background-color: #ef4444;
+        color: white;
+        padding: 8px 16px;
+        border-radius: 20px;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+        margin-top: 10px;
+    }
+
+        .truck-button-red:hover {
+            background-color: #dc2626;
+        }
+
+        .truck-button-red:focus {
+            outline: none;
+            box-shadow: 0 0 0 2px #ef4444;
+        }
+
+    .truck-search {
+        position: relative;
+    }
+
+    .truck-search-input {
+        width: 250px;
+        padding: 8px 12px 8px 40px;
+        border-radius: 20px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+    }
+
+        .truck-search-input:focus {
+            border-color: #ef4444;
+            box-shadow: 0 0 0 2px #ef4444;
+        }
+        
+
+    .truck-search-icon {
+        position: absolute;
+        left: 12px;
+        top: 50%;
+        transform: translateY(-50%);
+        color: #666;
+    }
+
+    .truck-filter {
+        position: relative;
+    }
+
+    .truck-filter-dropdown {
+        position: absolute;
+        right: 0;
+        top: 100%;
+        background: white;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 10;
+    }
+
+        .truck-filter-dropdown label {
+            display: block;
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+            .truck-filter-dropdown label:hover {
+                background-color: #f5f5f5;
+            }
+
+    .truck-details {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+        .truck-details img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+
+    .hidden {
+        display: none;
+    }
+</style>
 
 @code {
+    private bool ShowFilterDropdown = false;
+    private List<Truck> Trucks = new List<Truck>
+    {
+        new Truck { Id = 1, Name = "Грузовик 1", Region = "Москва", Phone = "123-456-7890", Description = "Отличное состояние, готов к разбору." },
+        new Truck { Id = 2, Name = "Грузовик 2", Region = "Санкт-Петербург", Phone = "234-567-8901", Description = "Нуждается в ремонте, части в наличии." },
+        new Truck { Id = 3, Name = "Грузовик 3", Region = "Новосибирск", Phone = "345-678-9012", Description = "Новый, полный комплект запчастей." },
+        new Truck { Id = 4, Name = "Грузовик 4", Region = "Екатеринбург", Phone = "456-789-0123", Description = "Хорошее состояние, части доступны." },
+        new Truck { Id = 5, Name = "Грузовик 5", Region = "Казань", Phone = "567-890-1234", Description = "Старый, но надежный, запчасти в наличии." },
+        new Truck { Id = 6, Name = "Грузовик 6", Region = "Челябинск", Phone = "678-901-2345", Description = "Среднее состояние, подходит для восстановления." },
+        new Truck { Id = 7, Name = "Грузовик 7", Region = "Ростов-на-Дону", Phone = "789-012-3456", Description = "Отличное состояние, полный комплект." },
+        new Truck { Id = 8, Name = "Грузовик 8", Region = "Красноярск", Phone = "890-123-4567", Description = "Нуждается в восстановлении, части доступны." },
+        new Truck { Id = 9, Name = "Грузовик 9", Region = "Нижний Новгород", Phone = "901-234-5678", Description = "Хорошее состояние, готов к разбору." },
+        new Truck { Id = 10, Name = "Грузовик 10", Region = "Самара", Phone = "012-345-6789", Description = "Новый, полный комплект запчастей." },
+        new Truck { Id = 11, Name = "Грузовик 11", Region = "Омск", Phone = "123-456-7891", Description = "Среднее состояние, части в наличии." },
+        new Truck { Id = 12, Name = "Грузовик 12", Region = "Уфа", Phone = "234-567-8902", Description = "Отличное состояние, готов к разбору." }
+    };
+    private HashSet<int> ExpandedTrucks = new HashSet<int>(); // Список раскрытых грузовиков
 
+    private void ToggleFilterDropdown()
+    {
+        ShowFilterDropdown = !ShowFilterDropdown;
+        Console.WriteLine($"Фильтр: {ShowFilterDropdown}");
+    }
+
+    private void OnSearchInput(ChangeEventArgs e)
+    {
+        string searchTerm = e.Value?.ToString() ?? "";
+        Console.WriteLine($"Поиск: {searchTerm}");
+    }
+
+    private void ShowDetails(int truckId)
+    {
+        Console.WriteLine($"Показать детали грузовика {truckId}");
+    }
+
+    private void ToggleTruckDetails(int truckId)
+    {
+        if (ExpandedTrucks.Contains(truckId))
+        {
+            ExpandedTrucks.Remove(truckId); // Скрыть детали
+        }
+        else
+        {
+            ExpandedTrucks.Add(truckId); // Показать детали
+        }
+        Console.WriteLine($"Грузовик {truckId} раскрыт: {ExpandedTrucks.Contains(truckId)}");
+    }
+
+
+    private void LoadMore()
+    {
+        Console.WriteLine("Кнопка 'Посмотреть ещё' нажата");
+        Trucks.Add(new Truck { Id = Trucks.Count + 1, Name = "Грузовик " + (Trucks.Count + 1), Region = "XXXXX", Phone = "XXXXXX", Description = "Новый грузовик, готов к разбору." });
+        Trucks.Add(new Truck { Id = Trucks.Count + 1, Name = "Грузовик " + (Trucks.Count + 1), Region = "XXXXX", Phone = "XXXXXX", Description = "Новый грузовик, готов к разбору." });
+        Trucks.Add(new Truck { Id = Trucks.Count + 1, Name = "Грузовик " + (Trucks.Count + 1), Region = "XXXXX", Phone = "XXXXXX", Description = "Новый грузовик, готов к разбору." });
+        Trucks.Add(new Truck { Id = Trucks.Count + 1, Name = "Грузовик " + (Trucks.Count + 1), Region = "XXXXX", Phone = "XXXXXX", Description = "Новый грузовик, готов к разбору." });
+        StateHasChanged();
+    }
 }
+

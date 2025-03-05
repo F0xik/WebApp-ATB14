@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "D:\\repos\\WebApp\\WebApp\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\WebApp.bundle.scp.css",
-      "PackagePath": "staticwebassets\\WebApp.4otihip35a.bundle.scp.css"
+      "PackagePath": "staticwebassets\\WebApp.ifgtry6cdn.bundle.scp.css"
     },
     {
       "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\app.css",
@@ -21,12 +21,108 @@
       "PackagePath": "staticwebassets\\icons\\phone.svg"
     },
     {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\adaptation.png",
+      "PackagePath": "staticwebassets\\images\\adaptation.png"
+    },
+    {
       "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\logo.svg",
       "PackagePath": "staticwebassets\\images\\logo.svg"
     },
     {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\low-cost.png",
+      "PackagePath": "staticwebassets\\images\\low-cost.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\ac.png",
+      "PackagePath": "staticwebassets\\images\\plates\\ac.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\body.png",
+      "PackagePath": "staticwebassets\\images\\plates\\body.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\brakes.png",
+      "PackagePath": "staticwebassets\\images\\plates\\brakes.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\cabin.png",
+      "PackagePath": "staticwebassets\\images\\plates\\cabin.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\cooling.png",
+      "PackagePath": "staticwebassets\\images\\plates\\cooling.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\electrics.png",
+      "PackagePath": "staticwebassets\\images\\plates\\electrics.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\engine.png",
+      "PackagePath": "staticwebassets\\images\\plates\\engine.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\exhaust.png",
+      "PackagePath": "staticwebassets\\images\\plates\\exhaust.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\fuel.png",
+      "PackagePath": "staticwebassets\\images\\plates\\fuel.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\gearbox.png",
+      "PackagePath": "staticwebassets\\images\\plates\\gearbox.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\optics.png",
+      "PackagePath": "staticwebassets\\images\\plates\\optics.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\pneumatics.png",
+      "PackagePath": "staticwebassets\\images\\plates\\pneumatics.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\reducer.png",
+      "PackagePath": "staticwebassets\\images\\plates\\reducer.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\steering.png",
+      "PackagePath": "staticwebassets\\images\\plates\\steering.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\suspension.png",
+      "PackagePath": "staticwebassets\\images\\plates\\suspension.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\plates\\transmission.png",
+      "PackagePath": "staticwebassets\\images\\plates\\transmission.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\reliability.png",
+      "PackagePath": "staticwebassets\\images\\reliability.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\sec.png",
+      "PackagePath": "staticwebassets\\images\\sec.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\speed1.png",
+      "PackagePath": "staticwebassets\\images\\speed1.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\support.png",
+      "PackagePath": "staticwebassets\\images\\support.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\team.png",
+      "PackagePath": "staticwebassets\\images\\team.png"
+    },
+    {
       "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck.png",
       "PackagePath": "staticwebassets\\images\\truck.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck.svg",
+      "PackagePath": "staticwebassets\\images\\truck.svg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
