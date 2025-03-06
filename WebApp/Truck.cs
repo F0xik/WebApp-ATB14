@@ -1,12 +1,13 @@
 ﻿namespace WebApp.Components
 {
+
     public class Truck
     {
-        public int Id { get; set; }
         public string Name { get; set; }
-        public string Region { get; set; }
-        public string Phone { get; set; }
-
-        public string Description { get; set; }
+        public string ImageUrl { get; set; }
+        public string Engine { get; set; }
+        public string Gearbox { get; set; }
+        public string Reducer { get; set; }
+        public string Year { get; set; }
     }
 }

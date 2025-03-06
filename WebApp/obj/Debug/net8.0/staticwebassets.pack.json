@@ -21,8 +21,32 @@
       "PackagePath": "staticwebassets\\icons\\phone.svg"
     },
     {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\searchbut.svg",
+      "PackagePath": "staticwebassets\\icons\\searchbut.svg"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\telegram.svg",
+      "PackagePath": "staticwebassets\\icons\\telegram.svg"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\vk.svg",
+      "PackagePath": "staticwebassets\\icons\\vk.svg"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\whatsapp.svg",
+      "PackagePath": "staticwebassets\\icons\\whatsapp.svg"
+    },
+    {
       "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\adaptation.png",
       "PackagePath": "staticwebassets\\images\\adaptation.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\footerlogo.png",
+      "PackagePath": "staticwebassets\\images\\footerlogo.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\footerlogo.svg",
+      "PackagePath": "staticwebassets\\images\\footerlogo.svg"
     },
     {
       "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\logo.svg",
@@ -117,12 +141,44 @@
       "PackagePath": "staticwebassets\\images\\team.png"
     },
     {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\testtruclist.png",
+      "PackagePath": "staticwebassets\\images\\testtruclist.png"
+    },
+    {
       "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck.png",
       "PackagePath": "staticwebassets\\images\\truck.png"
     },
     {
       "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck.svg",
       "PackagePath": "staticwebassets\\images\\truck.svg"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck1.png",
+      "PackagePath": "staticwebassets\\images\\truck1.png"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck1.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck1.jpg"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck2.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck2.jpg"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck3.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck3.jpg"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck4.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck4.jpg"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck5.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck5.jpg"
+    },
+    {
+      "Id": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck6.jpg",
+      "PackagePath": "staticwebassets\\images\\trucks\\truck6.jpg"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.WebApp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",

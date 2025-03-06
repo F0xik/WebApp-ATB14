@@ -3,40 +3,28 @@
   "WorkspaceRootPath": "D:\\repos\\WebApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\home\\advantages.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\home\\advantages.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\home\\truckslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\home\\truckslist.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\home\\partscategories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\home\\partscategories.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\home\\advantages.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\home\\advantages.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\home\\herosection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\home\\herosection.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\pages\\index.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\app.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\shared\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\shared\\header.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|d:\\repos\\webapp\\webapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{83694829-681F-4967-B4EB-0AA0B8CE0C60}|WebApp\\WebApp.csproj|solutionrelative:webapp\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,123 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 179,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Truck.cs",
-              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Truck.cs",
-              "RelativeDocumentMoniker": "WebApp\\Truck.cs",
-              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Truck.cs",
-              "RelativeToolTip": "WebApp\\Truck.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-05T03:50:55.195Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "TrucksList.razor",
-              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\TrucksList.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Home\\TrucksList.razor",
-              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\TrucksList.razor",
-              "RelativeToolTip": "WebApp\\Components\\Home\\TrucksList.razor",
-              "ViewState": "AgIAAAoBAAAAAAAAAAAkwCIBAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T02:55:00.233Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "PartsCategories.razor",
-              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\PartsCategories.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Home\\PartsCategories.razor",
-              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\PartsCategories.razor",
-              "RelativeToolTip": "WebApp\\Components\\Home\\PartsCategories.razor",
-              "ViewState": "AgIAADsAAAAAAAAAAAAkwEgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T01:37:53.6Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
               "Title": "Advantages.razor",
               "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\Advantages.razor",
               "RelativeDocumentMoniker": "WebApp\\Components\\Home\\Advantages.razor",
               "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\Advantages.razor",
               "RelativeToolTip": "WebApp\\Components\\Home\\Advantages.razor",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAEAAAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-04T23:37:03.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "app.css",
-              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\wwwroot\\app.css",
-              "RelativeDocumentMoniker": "WebApp\\wwwroot\\app.css",
-              "ToolTip": "D:\\repos\\WebApp\\WebApp\\wwwroot\\app.css",
-              "RelativeToolTip": "WebApp\\wwwroot\\app.css",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-03-05T01:12:20.941Z",
+              "WhenOpened": "2025-03-06T21:08:37.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "MainLayout.razor",
-              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Layout\\MainLayout.razor",
-              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\Layout\\MainLayout.razor",
-              "RelativeToolTip": "WebApp\\Components\\Layout\\MainLayout.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T01:10:25.949Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Index.razor",
-              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\Pages\\Index.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Pages\\Index.razor",
-              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\Pages\\Index.razor",
-              "RelativeToolTip": "WebApp\\Components\\Pages\\Index.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T01:10:24.051Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Header.razor",
-              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\Shared\\Header.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Shared\\Header.razor",
-              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\Shared\\Header.razor",
-              "RelativeToolTip": "WebApp\\Components\\Shared\\Header.razor",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAADoAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T01:04:10.872Z",
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Program.cs",
+              "RelativeDocumentMoniker": "WebApp\\Program.cs",
+              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Program.cs",
+              "RelativeToolTip": "WebApp\\Program.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAowBQAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T21:02:52.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "HeroSection.razor",
-              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\HeroSection.razor",
-              "RelativeDocumentMoniker": "WebApp\\Components\\Home\\HeroSection.razor",
-              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\HeroSection.razor",
-              "RelativeToolTip": "WebApp\\Components\\Home\\HeroSection.razor",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAJAAAAAAAAAA==",
+              "Title": "App.razor",
+              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\App.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\App.razor",
+              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\App.razor",
+              "RelativeToolTip": "WebApp\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-05T00:47:53.677Z",
+              "WhenOpened": "2025-03-06T19:53:34.068Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Routes.razor",
+              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\Routes.razor",
+              "RelativeToolTip": "WebApp\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-06T19:53:33.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Truck.cs",
+              "RelativeDocumentMoniker": "WebApp\\Truck.cs",
+              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Truck.cs",
+              "RelativeToolTip": "WebApp\\Truck.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAIAwwAoAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-06T19:43:37.88Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TrucksList.razor",
+              "DocumentMoniker": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\TrucksList.razor",
+              "RelativeDocumentMoniker": "WebApp\\Components\\Home\\TrucksList.razor",
+              "ToolTip": "D:\\repos\\WebApp\\WebApp\\Components\\Home\\TrucksList.razor",
+              "RelativeToolTip": "WebApp\\Components\\Home\\TrucksList.razor",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-05T02:55:00.233Z",
               "EditorCaption": ""
             }
           ]

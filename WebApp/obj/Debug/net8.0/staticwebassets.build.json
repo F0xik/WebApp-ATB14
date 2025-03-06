@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "MxIUO+b23ZjDWzggYVfZW87pYrtL2MmGXuXotlK0FtI=",
+  "Hash": "l3nKGPLQHU5AOu90Gxr9CcEjf+RhYFkleg2SoOHPlQc=",
   "Source": "WebApp",
   "BasePath": "_content/WebApp",
   "Mode": "Default",
@@ -143,6 +143,90 @@
       "OriginalItemSpec": "wwwroot\\icons\\phone.svg"
     },
     {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\searchbut.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "icons/searchbut#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "l6ty25riuw",
+      "Integrity": "w5HpdTWL8IeU53bcGkHZPYhMtZuULEvOSDHyaueZwfA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\searchbut.svg"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\telegram.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "icons/telegram#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uespzinm39",
+      "Integrity": "FtcNDAFuZtpXQL8wANNNs90Vxg7dODM4DgWwSPZSuOE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\telegram.svg"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\vk.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "icons/vk#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3bsjboermq",
+      "Integrity": "8f5mlDdQhM67M+X6MiXMcbMsiSB/Bu2ewfJz8qUtpJg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\vk.svg"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\whatsapp.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "icons/whatsapp#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "2tk2yp0yjd",
+      "Integrity": "KkSRA5Z51BuSsngOqZmrjYCMxgIQh3K+9XuQl/xkliA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\icons\\whatsapp.svg"
+    },
+    {
       "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\adaptation.png",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
@@ -162,6 +246,48 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\adaptation.png"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\footerlogo.png",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/footerlogo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "hvfeitz44j",
+      "Integrity": "I6JbRM0w/Qq998jR62AXp19L7dV7iDfBQ19UmykezyI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\footerlogo.png"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\footerlogo.svg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/footerlogo#[.{fingerprint}]?.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "nxnwvh00pn",
+      "Integrity": "K6Sra9odOBxEiu8aSkpAmL+zoyazAE0ZJQICu1zOwEo=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\footerlogo.svg"
     },
     {
       "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\logo.svg",
@@ -647,6 +773,27 @@
       "OriginalItemSpec": "wwwroot\\images\\team.png"
     },
     {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\testtruclist.png",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/testtruclist#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rkm0jvamlh",
+      "Integrity": "tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\testtruclist.png"
+    },
+    {
       "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck.png",
       "SourceId": "WebApp",
       "SourceType": "Discovered",
@@ -687,6 +834,153 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\truck.svg"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck1.png",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/truck1#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rkm0jvamlh",
+      "Integrity": "tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\truck1.png"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck1.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/trucks/truck1#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1u2x7rpd0r",
+      "Integrity": "Z/CXKmudyLaHEv4RjQPR0LBCRidSlsku/rQa7Z5rDUc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trucks\\truck1.jpg"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck2.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/trucks/truck2#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "rgf978zqi2",
+      "Integrity": "dRIlEtIEbqOPtUx4SI4ROsPbdH4xz7Pli2v2lhEwJZE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trucks\\truck2.jpg"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck3.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/trucks/truck3#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "1brq5pogj4",
+      "Integrity": "vbUN5XlMjuNBWV5nlhQ9n4URDLIIqZrV+fd8HaSCfX4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trucks\\truck3.jpg"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck4.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/trucks/truck4#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "4sac873khc",
+      "Integrity": "bIoE04ObDwnSbigFiUi45hfNFoicJw7FvjK5LB4usfk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trucks\\truck4.jpg"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck5.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/trucks/truck5#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "25agvdjmlg",
+      "Integrity": "quXyWDLS93LRkKOqZ5UVNFd4fDBJNcq4HNDP/I1T8EI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trucks\\truck5.jpg"
+    },
+    {
+      "Identity": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck6.jpg",
+      "SourceId": "WebApp",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\repos\\WebApp\\WebApp\\wwwroot\\",
+      "BasePath": "_content/WebApp",
+      "RelativePath": "images/trucks/truck6#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "5lb2k2e7r1",
+      "Integrity": "19xyxeKn7Eug3mwyva0zQGlkmG+zJ221Oqa0+/iH6rE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\trucks\\truck6.jpg"
     }
   ],
   "Endpoints": [
@@ -713,7 +1007,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 01:52:36 GMT"
+          "Value": "Thu, 06 Mar 2025 19:26:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -758,7 +1052,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 05 Mar 2025 01:52:36 GMT"
+          "Value": "Thu, 06 Mar 2025 19:26:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1019,6 +1313,334 @@
       ]
     },
     {
+      "Route": "icons/searchbut.l6ty25riuw.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\searchbut.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w5HpdTWL8IeU53bcGkHZPYhMtZuULEvOSDHyaueZwfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "l6ty25riuw"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/searchbut.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w5HpdTWL8IeU53bcGkHZPYhMtZuULEvOSDHyaueZwfA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/searchbut.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\searchbut.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "551"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w5HpdTWL8IeU53bcGkHZPYhMtZuULEvOSDHyaueZwfA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:37:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w5HpdTWL8IeU53bcGkHZPYhMtZuULEvOSDHyaueZwfA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/telegram.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\telegram.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FtcNDAFuZtpXQL8wANNNs90Vxg7dODM4DgWwSPZSuOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:32:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-FtcNDAFuZtpXQL8wANNNs90Vxg7dODM4DgWwSPZSuOE="
+        }
+      ]
+    },
+    {
+      "Route": "icons/telegram.uespzinm39.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\telegram.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "623"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"FtcNDAFuZtpXQL8wANNNs90Vxg7dODM4DgWwSPZSuOE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:32:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uespzinm39"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/telegram.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-FtcNDAFuZtpXQL8wANNNs90Vxg7dODM4DgWwSPZSuOE="
+        }
+      ]
+    },
+    {
+      "Route": "icons/vk.3bsjboermq.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\vk.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8f5mlDdQhM67M+X6MiXMcbMsiSB/Bu2ewfJz8qUtpJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:32:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3bsjboermq"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/vk.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-8f5mlDdQhM67M+X6MiXMcbMsiSB/Bu2ewfJz8qUtpJg="
+        }
+      ]
+    },
+    {
+      "Route": "icons/vk.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\vk.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1508"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"8f5mlDdQhM67M+X6MiXMcbMsiSB/Bu2ewfJz8qUtpJg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:32:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-8f5mlDdQhM67M+X6MiXMcbMsiSB/Bu2ewfJz8qUtpJg="
+        }
+      ]
+    },
+    {
+      "Route": "icons/whatsapp.2tk2yp0yjd.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\whatsapp.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KkSRA5Z51BuSsngOqZmrjYCMxgIQh3K+9XuQl/xkliA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:31:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "2tk2yp0yjd"
+        },
+        {
+          "Name": "label",
+          "Value": "icons/whatsapp.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KkSRA5Z51BuSsngOqZmrjYCMxgIQh3K+9XuQl/xkliA="
+        }
+      ]
+    },
+    {
+      "Route": "icons/whatsapp.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\icons\\whatsapp.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2271"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KkSRA5Z51BuSsngOqZmrjYCMxgIQh3K+9XuQl/xkliA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:31:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KkSRA5Z51BuSsngOqZmrjYCMxgIQh3K+9XuQl/xkliA="
+        }
+      ]
+    },
+    {
       "Route": "images/adaptation.3iwjv7otlr.png",
       "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\adaptation.png",
       "Selectors": [],
@@ -1097,6 +1719,170 @@
         {
           "Name": "integrity",
           "Value": "sha256-S+YaMh4c6RNlzIAVckmFY8SIAlkLINgJtfAo698Gc2c="
+        }
+      ]
+    },
+    {
+      "Route": "images/footerlogo.hvfeitz44j.png",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\footerlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6JbRM0w/Qq998jR62AXp19L7dV7iDfBQ19UmykezyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:18:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "hvfeitz44j"
+        },
+        {
+          "Name": "label",
+          "Value": "images/footerlogo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6JbRM0w/Qq998jR62AXp19L7dV7iDfBQ19UmykezyI="
+        }
+      ]
+    },
+    {
+      "Route": "images/footerlogo.nxnwvh00pn.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\footerlogo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K6Sra9odOBxEiu8aSkpAmL+zoyazAE0ZJQICu1zOwEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:21:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "nxnwvh00pn"
+        },
+        {
+          "Name": "label",
+          "Value": "images/footerlogo.svg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K6Sra9odOBxEiu8aSkpAmL+zoyazAE0ZJQICu1zOwEo="
+        }
+      ]
+    },
+    {
+      "Route": "images/footerlogo.png",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\footerlogo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "19297"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"I6JbRM0w/Qq998jR62AXp19L7dV7iDfBQ19UmykezyI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:18:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-I6JbRM0w/Qq998jR62AXp19L7dV7iDfBQ19UmykezyI="
+        }
+      ]
+    },
+    {
+      "Route": "images/footerlogo.svg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\footerlogo.svg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "41507"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/svg+xml"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K6Sra9odOBxEiu8aSkpAmL+zoyazAE0ZJQICu1zOwEo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 18:21:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K6Sra9odOBxEiu8aSkpAmL+zoyazAE0ZJQICu1zOwEo="
         }
       ]
     },
@@ -2987,6 +3773,88 @@
       ]
     },
     {
+      "Route": "images/testtruclist.png",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\testtruclist.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 19:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/testtruclist.rkm0jvamlh.png",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\testtruclist.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 19:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rkm0jvamlh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/testtruclist.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk="
+        }
+      ]
+    },
+    {
       "Route": "images/truck.4bvxtdtpey.png",
       "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck.png",
       "Selectors": [],
@@ -3147,6 +4015,580 @@
         {
           "Name": "integrity",
           "Value": "sha256-tuiOoo+2YtUbPGmUAZ6Fs76pcQylH5JuRzYwFruWAGM="
+        }
+      ]
+    },
+    {
+      "Route": "images/truck1.png",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 19:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/truck1.rkm0jvamlh.png",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\truck1.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "380969"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 19:17:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rkm0jvamlh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/truck1.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-tZ61R/uVEVCYuvvBP/uY7Z7O7la+moFrLRV4S7HOmmk="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck1.1u2x7rpd0r.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "363307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z/CXKmudyLaHEv4RjQPR0LBCRidSlsku/rQa7Z5rDUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:14:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1u2x7rpd0r"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trucks/truck1.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z/CXKmudyLaHEv4RjQPR0LBCRidSlsku/rQa7Z5rDUc="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck1.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck1.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "363307"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Z/CXKmudyLaHEv4RjQPR0LBCRidSlsku/rQa7Z5rDUc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:14:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Z/CXKmudyLaHEv4RjQPR0LBCRidSlsku/rQa7Z5rDUc="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck2.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dRIlEtIEbqOPtUx4SI4ROsPbdH4xz7Pli2v2lhEwJZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:15:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dRIlEtIEbqOPtUx4SI4ROsPbdH4xz7Pli2v2lhEwJZE="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck2.rgf978zqi2.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck2.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "207062"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dRIlEtIEbqOPtUx4SI4ROsPbdH4xz7Pli2v2lhEwJZE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:15:24 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rgf978zqi2"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trucks/truck2.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dRIlEtIEbqOPtUx4SI4ROsPbdH4xz7Pli2v2lhEwJZE="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck3.1brq5pogj4.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbUN5XlMjuNBWV5nlhQ9n4URDLIIqZrV+fd8HaSCfX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:15:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "1brq5pogj4"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trucks/truck3.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbUN5XlMjuNBWV5nlhQ9n4URDLIIqZrV+fd8HaSCfX4="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck3.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck3.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "158916"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vbUN5XlMjuNBWV5nlhQ9n4URDLIIqZrV+fd8HaSCfX4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:15:31 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vbUN5XlMjuNBWV5nlhQ9n4URDLIIqZrV+fd8HaSCfX4="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck4.4sac873khc.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIoE04ObDwnSbigFiUi45hfNFoicJw7FvjK5LB4usfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:17:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "4sac873khc"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trucks/truck4.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIoE04ObDwnSbigFiUi45hfNFoicJw7FvjK5LB4usfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck4.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck4.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "133678"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bIoE04ObDwnSbigFiUi45hfNFoicJw7FvjK5LB4usfk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:17:10 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bIoE04ObDwnSbigFiUi45hfNFoicJw7FvjK5LB4usfk="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck5.25agvdjmlg.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"quXyWDLS93LRkKOqZ5UVNFd4fDBJNcq4HNDP/I1T8EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:15:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "25agvdjmlg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trucks/truck5.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-quXyWDLS93LRkKOqZ5UVNFd4fDBJNcq4HNDP/I1T8EI="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck5.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck5.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "160511"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"quXyWDLS93LRkKOqZ5UVNFd4fDBJNcq4HNDP/I1T8EI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:15:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-quXyWDLS93LRkKOqZ5UVNFd4fDBJNcq4HNDP/I1T8EI="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck6.5lb2k2e7r1.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "212957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"19xyxeKn7Eug3mwyva0zQGlkmG+zJ221Oqa0+/iH6rE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:16:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "5lb2k2e7r1"
+        },
+        {
+          "Name": "label",
+          "Value": "images/trucks/truck6.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-19xyxeKn7Eug3mwyva0zQGlkmG+zJ221Oqa0+/iH6rE="
+        }
+      ]
+    },
+    {
+      "Route": "images/trucks/truck6.jpg",
+      "AssetFile": "D:\\repos\\WebApp\\WebApp\\wwwroot\\images\\trucks\\truck6.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "212957"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"19xyxeKn7Eug3mwyva0zQGlkmG+zJ221Oqa0+/iH6rE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 06 Mar 2025 20:16:05 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-19xyxeKn7Eug3mwyva0zQGlkmG+zJ221Oqa0+/iH6rE="
         }
       ]
     },

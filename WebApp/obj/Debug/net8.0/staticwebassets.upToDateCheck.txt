@@ -2,7 +2,13 @@ wwwroot\app.css
 wwwroot\bootstrap\bootstrap.min.css
 wwwroot\bootstrap\bootstrap.min.css.map
 wwwroot\icons\phone.svg
+wwwroot\icons\searchbut.svg
+wwwroot\icons\telegram.svg
+wwwroot\icons\vk.svg
+wwwroot\icons\whatsapp.svg
 wwwroot\images\adaptation.png
+wwwroot\images\footerlogo.png
+wwwroot\images\footerlogo.svg
 wwwroot\images\logo.svg
 wwwroot\images\low-cost.png
 wwwroot\images\plates\ac.png
@@ -26,5 +32,13 @@ wwwroot\images\sec.png
 wwwroot\images\speed1.png
 wwwroot\images\support.png
 wwwroot\images\team.png
+wwwroot\images\testtruclist.png
 wwwroot\images\truck.png
 wwwroot\images\truck.svg
+wwwroot\images\truck1.png
+wwwroot\images\trucks\truck1.jpg
+wwwroot\images\trucks\truck2.jpg
+wwwroot\images\trucks\truck3.jpg
+wwwroot\images\trucks\truck4.jpg
+wwwroot\images\trucks\truck5.jpg
+wwwroot\images\trucks\truck6.jpg
